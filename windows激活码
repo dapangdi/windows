@@ -1,0 +1,38 @@
+使用管理员权限运行CMD或者PowerShell：
+    第一种方法：按下Win+X，选择Windows PowerShell(管理员)；
+    第二种方法：搜索cmd，出现命令提示符，点击右侧箭头选择以管理员身份运行。
+    win10专业版用户请依次输入：
+            slmgr /ipk W269N-WFGWX-YVC9B-4J6C9-T83GX
+            slmgr /skms kms.03k.org
+            slmgr /atowin10
+    企业版用户请依次输入：
+            slmgr /ipk NPPR9-FWDCX-D2C8J-H872K-2YT43
+            slmgr /skms kms.03k.org
+            slmgr /atowin10
+    家庭版用户依次输入：
+            slmgr /ipk TX9XD-98N7V-6WMQ6-BX7FG-H8Q99
+            slmgr /skms kms.03k.org
+            slmgr /ato
+http://kms.03k.org是kms服务器地址，可能会失效，会提示失败；
+如果激活失败，可以自行搜索kms服务器地址，将http://kms.03k.org替换成新的地址即可
+使用网上公开的 KMS服务器地址
+公开地址有：
+kms.loli.best
+kms.cangshui.net
+kms.iaini.net
+kms.huengyamm.xyz
+kms.kuretru.com
+kms.03k.org
+还有其他服务器，可以自行查找。
+查看激活命令
+slmgr.vbs -xpr
+显示：是否彻底激活
+清除激活命令
+slmgr /upk
+slmgr /ckms
+slmgr /rearm
+
+slmgr /upk，是卸载key
+slmgr /ckms，是密钥管理服务计算机名称清除
+slmgr /rearm，是重置计算机的授权状态
+清除激活命令
