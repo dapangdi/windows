@@ -33,3 +33,13 @@ Fedora Remix for WSL
 比如 E:/ubuntu 打开解压后的文件夹 里面有一个 exe文件 ubuntu2004.exe
 
 双击这个文件 过一会就安装成功了
+
+
+以后要使用,直接打开 这个 exe就可以了
+卸载的话
+
+wsl --list，查看你安装的发型版本，
+ 
+然后输入wsl --unregister <要卸载的发行版>
+ 
+然后删除对应目录
