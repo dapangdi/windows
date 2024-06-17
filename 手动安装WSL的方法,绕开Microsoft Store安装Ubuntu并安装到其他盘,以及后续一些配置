@@ -1,0 +1,35 @@
+先去微软下载对应的Linux版本的 appx文件
+https://docs.microsoft.com/zh-cn/windows/wsl/install-manual
+
+下载发行版
+在某些情况下，你可能无法（或不想）使用 Microsoft Store 安装 WSL Linux 发行版。 你可能正在运行不支持 Microsoft Store 的 Windows Server 或长期服务 (LTSC) 桌面操作系统 SKU，或者你的公司网络策略和/或管理员不允许在你的环境中使用 Microsoft Store。 在这些情况下，虽然 WSL 本身可用，但你可能需要直接下载 Linux 发行版。
+
+如果 Microsoft Store 应用不可用，可使用以下链接来下载并手动安装 Linux 发行版：
+
+Ubuntu
+Ubuntu 22.04 LTS
+Ubuntu 20.04
+Ubuntu 20.04 ARM
+Ubuntu 18.04
+Ubuntu 18.04 ARM
+Ubuntu 16.04
+Debian GNU/Linux
+Kali Linux
+SUSE Linux Enterprise Server 12
+SUSE Linux Enterprise Server 15 SP2
+SUSE Linux Enterprise Server 15 SP3
+openSUSE Tumbleweed
+openSUSE Leap 15.3
+openSUSE Leap 15.2
+Oracle Linux 8.5
+Oracle Linux 7.9
+Fedora Remix for WSL
+
+
+下载完成后吧这个 文件 修改后缀为zip 提取到某个地方
+
+再次修改后缀 解压 这个 appx 
+
+比如 E:/ubuntu 打开解压后的文件夹 里面有一个 exe文件 ubuntu2004.exe
+
+双击这个文件 过一会就安装成功了
